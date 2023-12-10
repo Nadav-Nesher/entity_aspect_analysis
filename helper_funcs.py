@@ -18,6 +18,7 @@ Imports:
 from openai import OpenAI
 from enum import Enum
 from typing import Dict, List
+# TODO: move API key to env var
 from secret import OPENAI_API_KEY
 
 # Initialize an OpenAI client
