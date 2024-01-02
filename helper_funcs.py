@@ -13,8 +13,6 @@ Imports:
 """
 
 
-
-
 from openai import OpenAI
 from enum import Enum
 from typing import Dict, List
@@ -36,6 +34,7 @@ class ResponseFormat(Enum):
     """
     TEXT = {"type": "text"}
     JSON_OBJECT = {"type": "json_object"}
+
 
 def get_completion_from_messages(messages: List[Dict[str, str]],
                                  model: str = "gpt-3.5-turbo-1106",
