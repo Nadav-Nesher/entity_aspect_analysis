@@ -43,7 +43,6 @@ if __name__ == '__main__':
     Main execution point of the script. Calls the flow function.
     """
     review_analysis = flow()
-    print()
 
 
 
