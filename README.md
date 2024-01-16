@@ -38,6 +38,10 @@ Q&A model, WordCloud, N-gram frequency count (after stopwords removal), fuzzy ma
 * **EDA -** See `EDA.ipynb` file
 * **Entity opinion extraction + true-vs-pred eval. -** project (`.py` modules)
 
+# Instructions
+Run the `main.py` module
+
+
 # Implementation and alternatives:
 ## EDA
 ### Simplistic approaches (quick, provide merely an initial macro view of the data)
