@@ -12,16 +12,18 @@ Imports:
 - OPENAI_API_KEY from secret: A module to securely fetch the OpenAI API key.
 """
 
-
+import os
 from openai import OpenAI
 from enum import Enum
 from typing import Dict, List
 # TODO: move API key to env var
-from secret import OPENAI_API_KEY
+# from secret import OPENAI_API_KEY
+from dotenv import load_dotenv
 
 # Initialize an OpenAI client
-client = OpenAI(api_key=OPENAI_API_KEY)
-
+load_dotenv()
+OPENAI_API_KEYYY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=OPENAI_API_KEYYY)
 
 # Define the ResponseFormat enum
 class ResponseFormat(Enum):
