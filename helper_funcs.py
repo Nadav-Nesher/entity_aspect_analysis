@@ -16,8 +16,6 @@ import os
 from openai import OpenAI
 from enum import Enum
 from typing import Dict, List
-# TODO: move API key to env var
-# from secret import OPENAI_API_KEY
 from dotenv import load_dotenv
 
 # Initialize an OpenAI client
