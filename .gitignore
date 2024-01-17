@@ -10,9 +10,5 @@ venv/
 # Environment variables
 .env
 
-#TODO: add to environment variables. Temporarily stored in a `.py` file.
-# OpenAI API KEY
-secret.py
-
 # JetBrains Qodana
 qodana.yaml
