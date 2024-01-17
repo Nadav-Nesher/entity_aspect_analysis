@@ -22,8 +22,8 @@ from dotenv import load_dotenv
 
 # Initialize an OpenAI client
 load_dotenv()
-OPENAI_API_KEYYY = os.getenv("OPENAI_API_KEY")
-client = OpenAI(api_key=OPENAI_API_KEYYY)
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Define the ResponseFormat enum
 class ResponseFormat(Enum):
