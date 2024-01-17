@@ -39,11 +39,11 @@ Q&A model, WordCloud, N-gram frequency count (after stopwords removal), fuzzy ma
 * **Entity opinion extraction + true-vs-pred eval. -** project (`.py` modules)
 
 # Instructions
-* Run the `main.py` module
+Run the `main.py` module
 
 **Notes:**
 * Make sure to create an `.env` file for storing your OpenAI api key.
-* Use the following formate: `OPENAI_API_KEY = "{your_openai_api_key}"`
+* **Use the following formate:** `OPENAI_API_KEY = "your_openai_api_key"`
 
 
 # Implementation and alternatives:
