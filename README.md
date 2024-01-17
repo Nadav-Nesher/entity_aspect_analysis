@@ -43,7 +43,7 @@ Run the `main.py` module
 
 **Notes:**
 * Make sure to create an `.env` file for storing your OpenAI api key.
-* **Use the following formate:** `OPENAI_API_KEY = "your_openai_api_key"`
+* **Use the following format:** `OPENAI_API_KEY = "your_openai_api_key"`
 
 
 # Implementation and alternatives:
